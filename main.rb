@@ -7,7 +7,7 @@ prefix:'/',
 )
 
 bot.command :hello do |event|
- event.send_message("hallo,world.#{event.user.name}")
+ event.send_message("hello,world.#{event.user.name}")
 end
 
 bot.run
