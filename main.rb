@@ -1,6 +1,6 @@
 require 'discordrb'
 
-bot = Discordrb::Commands::CommandBot.new (
+bot = Discordrb::Commands::CommandBot.new(
 token: TOKEN,
 client_id: CLIENT_ID,
 prefix:'/',
